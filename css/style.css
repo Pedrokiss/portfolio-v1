@@ -1,5 +1,6 @@
 body{
     background-color: lightgray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
 h1{
@@ -12,15 +13,30 @@ h2{
 
 nav{
     background-color: black;
+    text-align: center;
+    padding: 10px;
 }
 
 nav a{
     color: white;
+    text-decoration: none;
+    margin: 15px;
 }
 
 section{
-    background-color: pink;
+    background-color:aliceblue;
     padding: 20px;
     margin: 20px;
-    
+}
+
+#inicio{
+    background-color: bisque;
+}
+
+.nome{
+    color: darkred ;
+}
+
+.cabecalho{
+    text-align: center;
 }
